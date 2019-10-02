@@ -1,15 +1,22 @@
+
+
+/* <!--style for my resume--> */
+
 body{
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444
 }
 
-h1{
+#name{
   font-size: 3em;
   color: #33485e
   text-align: center;
   text-transform: uppercase;
-
+  border-bottom-style: 1px solid #33485e;
+  border-width: 60%
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 b{
