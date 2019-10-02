@@ -13,7 +13,7 @@ body{
   color: #33485e;
   text-align: center;
   text-transform: uppercase;
-  border-bottom-style: solid 1px #33485e;
+  border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
@@ -25,7 +25,7 @@ b{
   text-transform: uppercase;
 }
 
-#sectionheader{
+.sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   color: white;
