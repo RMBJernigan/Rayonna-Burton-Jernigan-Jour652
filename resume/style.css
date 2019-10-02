@@ -10,11 +10,11 @@ body{
 
 #name{
   font-size: 3em;
-  color: #33485e
+  color: #33485e;
   text-align: center;
   text-transform: uppercase;
-  border-bottom-style: 1px solid #33485e;
-  border-width: 60%
+  border-bottom-style: solid 1px #33485e;
+  width: 60%;
   min-width: 300px;
   margin: 0 auto;
 }
@@ -25,7 +25,7 @@ b{
   text-transform: uppercase;
 }
 
-h2{
+#sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   color: white;
