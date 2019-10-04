@@ -8,6 +8,7 @@ body{
   color: #444
 }
 
+/* <!--style for my h1--> */
 #name{
   font-size: 3em;
   color: #33485e;
@@ -19,36 +20,48 @@ body{
   margin: 0 auto;
 }
 
+/* <!--style for my job title--> */
 b{
   color: #33485e;
   font-size: 1.5em;
   text-transform: uppercase;
 }
 
+/* <!--style for my h2--> */
 .sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   color: white;
   background-color: #33485e;
   font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
 }
 
+/* <!--style for my h3--> */
  h3{
    font-weight: 600;
    font-size: 1.5em;
  }
 
+/* <!--style for my h4--> */
 h4{
   font-weight: 400;
   font-size: 1.5em;
 }
 
+/* <!--style for my h5--> */
 h5{
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
 }
 
+/* <!--style for my li--> */
 li{
   font-size: 1em;
 }
