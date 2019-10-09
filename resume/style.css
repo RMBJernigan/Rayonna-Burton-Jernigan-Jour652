@@ -78,6 +78,20 @@ body{
   margin: 2px 0px 0px 0px;
 }
 
+#degrees{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-left: 0px;
+}
+
+#do{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-left: 0px;
+}
+
 /* <!--style for my li--> */
 li{
   font-size: 1em;
