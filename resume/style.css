@@ -1,12 +1,12 @@
 /* <!--style for my resume--> */
 
-body{
+body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444
 }
 
-#container{
+#container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -14,7 +14,7 @@ body{
 }
 
 /* <!--style for my h1--> */
-#name{
+#name {
   font-size: 3em;
   color: #33485e;
   text-align: center;
@@ -26,7 +26,7 @@ body{
 }
 
 /* <!--style for my job title--> */
-#title{
+#title {
   text-align:center;
   color: #33485e;
   font-size: 1.5em;
@@ -39,7 +39,7 @@ body{
 }
 
 /* <!--style for contact info--> */
-.menu{
+.menu {
   margin: 0px;
   padding: 0px;
   text-align: center;
@@ -47,7 +47,7 @@ body{
 }
 
 /* <!--style for my h2--> */
-.sectionheader{
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   color: white;
@@ -59,33 +59,33 @@ body{
 }
 
 /* <!--style for my h3--> */
- .jobtitle{
+ .jobtitle {
    font-weight: 600;
    font-size: 1.5em;
  }
 
 /* <!--style for my h4--> */
-.organization{
+.organization {
   font-weight: 400;
   font-size: 1.25em;
 }
 
 /* <!--style for my h5--> */
-.date{
+.date {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
   margin: 2px 0px 0px 0px;
 }
 
-#degrees{
+#degrees {
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-left: 0px;
 }
 
-#do{
+#do {
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
@@ -93,17 +93,17 @@ body{
 }
 
 /* <!--style for my li--> */
-li{
+li {
   font-size: 1em;
 }
 
 /* <!--style for my Pg--> */
-.description p{
+.description p {
   margin: 10px 0px;
 }
 
 /* <!--style for my mission statement--> */
-.top{
+.top {
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
