@@ -26,7 +26,7 @@ body{
 }
 
 /* <!--style for my job title--> */
-b{
+#title{
   text-align:center;
   color: #33485e;
   font-size: 1.5em;
@@ -36,6 +36,14 @@ b{
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
+}
+
+/* <!--style for contact info--> */
+.menu{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: inline;
 }
 
 /* <!--style for my h2--> */
