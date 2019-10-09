@@ -1,11 +1,16 @@
-
-
 /* <!--style for my resume--> */
 
 body{
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444
+}
+
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 /* <!--style for my h1--> */
@@ -75,6 +80,10 @@ li{
   margin: 10px 0px;
 }
 
-.menu ul{
-
+/* <!--style for my mission statement--> */
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
