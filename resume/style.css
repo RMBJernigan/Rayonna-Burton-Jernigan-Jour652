@@ -3,7 +3,8 @@
 body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
-  color: #444
+  color: #444;
+  font-weight: 400;
 }
 
 #container {
@@ -45,7 +46,7 @@ body {
   text-align: center;
 }
 
-.menu2{
+.item{
   display: inline;
 }
 
@@ -90,9 +91,9 @@ body {
 
 #do {
   margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-left: 0px;
+  margin-bottom: 0 auto;
+  margin-left: 0 auto;
+  margin-left: 0 auto;
 }
 
 /* <!--style for my li--> */
