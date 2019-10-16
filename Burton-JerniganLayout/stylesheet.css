@@ -1,0 +1,35 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.headline{
+  font-family: helvetica, sans-serif;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+p {
+  font-family: Georgia, sans-serif;
+  font-size: 13px;
+}
+
+.inset-photo {
+  width:100%;
+  max-width:500px;
+}
+
+.caption {
+  font-style: italic;
+}
+
+.quote{
+font: 16px/24px normal helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;
+margin-bottom: 15px;
+color: red;
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #000000;
+}
