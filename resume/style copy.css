@@ -1,0 +1,12 @@
+/* <!--style for my final bootstrap and html resume file--> */
+
+body{
+  font-family: 'Encode Sans Semi Expanded', sans-serif, Georgia;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
