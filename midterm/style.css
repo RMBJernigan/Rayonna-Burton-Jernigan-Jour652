@@ -1,3 +1,19 @@
-.body{
-dnfjfjdj
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+.small{
+  display: inline;
+}
+
+#head{
+  font-family: 'Merriweather', serif;
+  font-size: 50px;
+}
+
+#sub{
+  font-style: bold;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 25px;
 }
