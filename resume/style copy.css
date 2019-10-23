@@ -1,12 +1,62 @@
 /* <!--style for my final bootstrap and html resume file--> */
 
 body{
-  font-family: 'Encode Sans Semi Expanded', sans-serif, Georgia;
+  font-family: 'Open Sans', sans-serif, Georgia;
+  background-color: white;
+  padding: inherit;
 }
 
 #container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding-bottom: 50px;
+}
+
+#state{
+  font-size: 3em;
+  color: #400000;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid #400000;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: #400000;
+  color: white;
+}
+
+.date{
+  font-style: italic;
+}
+
+.sectiontitle{
+  border-style: solid;
+  border-width: medium;
+  border-color: #400000;
+  background-color: #400000;
+  color: white;
+  text-transform: uppercase;
+}
+
+.mission{
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.jobtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.organization {
+ font-weight: 500;
+ font-size: 1.25em;
+}
+
+.description{
+  font-size: 1em;
+}
+
+#first{
+  text-align: right;
 }
