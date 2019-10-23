@@ -1,3 +1,5 @@
+/* <!--This is my style sheet, more style to be added later on to this. Would like to change background and margins.--> */
+
 body{
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -10,14 +12,20 @@ body{
 #head{
   font-family: 'Merriweather', serif;
   font-size: 50px;
+  text-align: center;
 }
 
 #sub{
   font-style: bold;
   font-family: 'Noto Serif JP', serif;
   font-size: 35px;
+  text-align: center;
 }
 
 .col-sm-12{
   float: center;
+}
+
+#id{
+  font-size: 5px;
 }
