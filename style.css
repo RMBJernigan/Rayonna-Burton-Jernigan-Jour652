@@ -7,9 +7,39 @@
   text-transform: capitalize;
   font-weight: bold;
   font-size: 75px;
+  font-family: 'Jomolhari', serif;
 }
 
 .byline{
   margin: 0 auto;
   text-align: center;
+  font-family: 'Jomolhari', serif;
+}
+
+#body{
+  font-family: 'Jomolhari', serif;
+}
+
+#foot{
+  text-align: center;
+  border-style: solid;
+  background-color: black;
+  color: white;
+}
+.row{
+  text-align: center;
+}
+
+#caption{
+  text-align: center;
+  color: grey;
+  font-style: italic;
+}
+
+p{
+  margin-left: 40px;
+}
+
+h1{
+  margin-left: 40px;
 }
