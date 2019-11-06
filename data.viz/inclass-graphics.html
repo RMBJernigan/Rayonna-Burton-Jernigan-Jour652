@@ -32,7 +32,7 @@
   <!-- first graph  -->
 <center>
 <div class="graphic-container">
-    <h2>Shootings by Year</h2>
+    <h2>Examining the carnage</h2>
     <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticeable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistently high.</p>
     <div id="myLineChart"></div>
     <em>Source: Data collected by The Washington Post</em>
@@ -40,16 +40,16 @@
 
 <br>
  <div class="graphic-container">
-     <h2>Shootings by Type</h2>
-     <p> Targeted shootings are far by the most common ways...</p>
-     <div id="shootingsByTypeChart"></div>
+     <h2>Where Shootings Occur More?</h2>
+     <p> Determinging whether shootings happen in a more rural or urban area.</p>
+     <div id="shootingsByAreaChart"></div>
      <em>Source: Data collected by The Washington Post</em>
 </div>
 
 <br>
  <div class="graphic-container">
-    <h2>How often were resources officers present?</h2>
-    <p>School resource officers were commonally not present at the scene of school shootings</p>
+    <h2>What race are school shooters likely to be?</h2>
+    <p>School shooters race tend to range across the board</p>
     <div id="resourceOfficersChart"></div>
     <em>Source: Data collected by The Washington Post</em>
   </div>
@@ -64,7 +64,10 @@
           x: 'x',
           columns: [
               ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
-            ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+            ['Number of kills', 14, 4, 5, 1, 5, 3, 9, 9, 1, 5, 1, 3, 2, 32, 3, 6, 0, 2, 5, 21],
+            ['Casualities', 49, 7, 27, 8, 12, 12, 26, 25, 18, 10, 5, 9, 11, 40, 16, 20, 2, 20, 20, 65],
+             ['Injured', 35, 3, 22, 7, 7, 9, 17, 16, 17, 5, 4, 6, 9, 8, 13, 14, 2, 18, 15, 44],
+             ['# of injuries', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
           ]
         },
         color: {
@@ -74,18 +77,13 @@
 
 // Bar Chart
 var chart2 = c3.generate({
-      bindto: '#shootingsByTypeChart',
+      bindto: '#shootingsByAreaChart',
       data: {
         columns: [
-          ['Targeted', 130],
-          ['indiscriminate', 42],
-          ['Accidental', 25],
-          ['Targeted and indiscriminate', 5],
-          ['Public suicide', 4],
-          ['Unclear', 3],
-          ['hostage suicide', 2],
-          ['Accidental or targeted', 2],
-          ['Public suicide (attempted)', 1]
+          ['City', 101],
+          ['Suburb', 58],
+          ['Town', 24],
+          ['Rural', 31],
         ],
         type: 'bar'
       },
@@ -100,8 +98,11 @@ var chart2 = c3.generate({
      data: {
        // iris data from R
        columns: [
-         ['Present', 35],
-         ['Not present', 65],
+         ['Asian', 1],
+         ['American Indian', 3],
+         ['Black', 33],
+         ['Hispanic', 6],
+         ['White', 57],
        ],
        type : 'pie',
        onclick: function (d, i) { console.log("onclick", d, i); },
