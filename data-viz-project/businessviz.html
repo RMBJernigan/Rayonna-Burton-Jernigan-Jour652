@@ -41,9 +41,9 @@
  <br>
   <div class="graphic-container">
       <h2>Minority</h2>
-      <p> Determinging the number of black owned businesses against other minority businesses </p>
-      <div id="shootingsByAreaChart"></div>
-      <em>Source: Data collected by The Washington Post</em>
+      <p> Determinging the number of black owned firms against other minority firms </p>
+      <div id="myDieChart"></div>
+      <em>Source: Data collected by Sba.gov</em>
  </div>
 
  <!-- c3 script-->
@@ -66,8 +66,32 @@
     }
   });
 
+  var chart3 = c3.generate({
+   bindto: '#myDieChart',
+   data: {
+     // iris data from R
+     columns: [
+       ['African American Owned', 40.2],
+       ['Asian Owned', 21.2],
+       ['hispanic Owned', 21.6],
+       ['other', 17],
+     ],
+     type : 'pie',
+     onclick: function (d, i) { console.log("onclick", d, i); },
+     onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+     onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+   },
+   color: {
+     pattern: ['#973895', '#8b0000','#f8bb63', '#818281']
+   }
+ });
+
+
 
    </script>
+<br>
+
+   <iframe src="https://uploads.knightlab.com/storymapjs/2c3000e7f5d77afe040e789d50db1d6d/black-businesses/index.html" frameborder="0" width="100%" height="800"></iframe>
  </body>
 
  </html>
