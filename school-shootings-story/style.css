@@ -1,3 +1,7 @@
+#body{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 
 .intro{
   font-family: 'Montserrat', sans-serif;
@@ -88,14 +92,14 @@ ul.navbar-nav {
 
 .stack-image{
   width:100%;
-  max-width:900px;
+  max-width:500px;
   margin:0 auto;
   padding-top:30px;
 }
 
 .caption{
  width:100%;
- max-width:900px;
+ max-width:500px;
  margin:0 auto;
  padding-bottom:30px;
  font-family: 'Montserrat', sans-serif;
