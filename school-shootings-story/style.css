@@ -1,6 +1,8 @@
 #body{
   margin-top: 25px;
   margin-bottom: 25px;
+  text-align: left;
+  max-width: inherit;
 }
 
 .intro{
@@ -92,7 +94,7 @@ ul.navbar-nav {
 
 .stack-image{
   width:100%;
-  max-width:500px;
+  max-width:900px;
   margin:0 auto;
   padding-top:30px;
 }
