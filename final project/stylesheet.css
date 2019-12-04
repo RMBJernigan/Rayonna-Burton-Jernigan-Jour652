@@ -4,3 +4,22 @@ font-family: 'Libre Baskerville', 'PT Serif', serif;
 
 #container{
 }
+
+#navstuff{
+  color:#64BCFF;
+  text-align: right;
+}
+
+ul.navbar-nav {
+ margin-left:80%;
+}
+
+.navbar-dark{
+  background-color: #000 !important;
+}
+
+#container{
+  margin: inherit;
+  background-color: #000;
+  color: white;
+}
