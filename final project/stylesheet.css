@@ -2,11 +2,9 @@ body{
 font-family: 'Libre Baskerville', 'PT Serif', serif;
 }
 
-#container{
-}
 
 #navstuff{
-  color:#64BCFF;
+  color:#506034;
   text-align: right;
 }
 
@@ -22,4 +20,14 @@ ul.navbar-nav {
   margin: inherit;
   background-color: #000;
   color: white;
+  max-width: inherit;
+}
+
+.banner{
+  max-width:1000px;
+  width:100%;
+}
+
+.c3-legend-item{
+  fill: white !important;
 }
