@@ -39,7 +39,7 @@ ul.navbar-nav {
 
 .vid{
   max-width: 500px;
-  width:50%;
+  width:75%;
 }
 
 .head{
@@ -78,8 +78,16 @@ div.desc {
   text-align: center;
 }
 
+.button{
+  background-color: #506034;
+}
+
+#link{
+  color:#000;
+}
+
 @media only screen and (max-width: 600px) {
   body {
-    color: lightblue !important;
+    color: #000 !important;
   }
 }
