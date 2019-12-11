@@ -21,6 +21,7 @@ ul.navbar-nav {
   background-color: #000;
   color: white;
   max-width: 100%;
+  position: inherit;
 }
 
 .banner{
@@ -36,6 +37,10 @@ ul.navbar-nav {
   fill: white !important;
 }
 
+.vid{
+  max-width: 500px;
+  width:100%;
+}
 
 .head{
   color: #506034;
@@ -75,6 +80,6 @@ div.desc {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    color: lightblue !important;
   }
 }
