@@ -20,7 +20,7 @@ ul.navbar-nav {
   margin: inherit;
   background-color: #000;
   color: white;
-  max-width: inherit;
+  max-width: 100%;
 }
 
 .banner{
@@ -30,4 +30,51 @@ ul.navbar-nav {
 
 .c3-legend-item{
   fill: white !important;
+}
+
+.c3{
+  fill: white !important;
+}
+
+
+.head{
+  color: #506034;
+  text-align: center;
+  border-style: dotted;
+}
+
+#foot{
+  border-style: hidden;
+  background-color: #000;
+  color: #506034;
+  text-align: center;
+}
+
+p{
+  line-height: 2;
+}
+div.gallery {
+  margin: 2px;
+  border: 1px solid #ccc;
+  width: 150px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
